@@ -1,0 +1,6 @@
+<p>Сделать ссылку:<p>
+<form action="/create_link/" method="post">
+    {% csrf_token %}
+    <input name='link' type='text'>
+    <input type='submit' value='Enter'>
+</form>
